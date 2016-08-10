@@ -73,4 +73,11 @@ create table wfsgt                      -- SEGUIMIENTO X GLOSA
 	wfsgtglos	CHAR(2000)              -- Glosa
 )
 
+create table wfstc                      -- SEGUIMIENTO CON LAS TAREAS CREADAS
+(
+	wfstccsgt	DECIMAL(20,0) NOT NULL, -- Nro. Seguimiento PK
+	wfstctces	SMALLINT NOT NULL,      -- Tipo Creacion 
+	wfstcntar	SMALLINT NOT NULL,      -- Tarea
+)
+
 
