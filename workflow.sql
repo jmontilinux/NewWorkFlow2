@@ -39,3 +39,10 @@ create table wfrch						-- SOLICITUDES RECHAZADAS
 	
 )
 
+create table wfsgt                             -- SEGUIMIENTO DE SOLICITUDES
+(
+        wfsgtnsol	DECIMAL(20,0) NOT NULL, -- Nro. Solicitud PK	
+        wfsgtnpro       INTEGER NOT NULL,       -- Proceso o Flujo 
+        
+)
+
